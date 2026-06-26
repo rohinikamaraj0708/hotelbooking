@@ -1,0 +1,156 @@
+body {
+  background: #f1f5f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 90vh;
+
+  background-image: url("https://images.unsplash.com/photo-1522708323590-d24dbb6b0267");
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 70px;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.hero button {
+  margin-top: 30px;
+
+  padding: 15px 40px;
+
+  border: none;
+
+  background: gold;
+
+  font-size: 18px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+/* Rooms Section */
+
+.rooms-section {
+  padding: 80px 50px;
+}
+
+.rooms-section h2 {
+  text-align: center;
+
+  margin-bottom: 50px;
+
+  font-size: 45px;
+
+  color: #0b1730;
+}
+
+.rooms-container {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+/* ---------- Services ---------- */
+
+.services {
+  padding: 80px 50px;
+
+  background: #ffffff;
+}
+
+.services h2 {
+  text-align: center;
+
+  font-size: 45px;
+
+  margin-bottom: 50px;
+
+  color: #0b1730;
+}
+
+.service-container {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 30px;
+
+  flex-wrap: wrap;
+}
+
+.service-card {
+  width: 300px;
+
+  background: #f8fafc;
+
+  padding: 30px;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  margin-bottom: 15px;
+
+  color: #0b1730;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  background: #081120;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 30px;
+}
+
+.footer h2 {
+  color: gold;
+
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #d1d5db;
+}

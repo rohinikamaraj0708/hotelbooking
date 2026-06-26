@@ -1,0 +1,21 @@
+.footer {
+  background: #081120;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 30px;
+
+  margin-top: 80px;
+}
+
+.footer h2 {
+  color: gold;
+
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #d1d5db;
+}
